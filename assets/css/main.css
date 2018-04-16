@@ -1,0 +1,225 @@
+
+.background-image {
+    background: url(../img/background-image.png) no-repeat center center;
+    background-size: cover;
+    padding: 150px 0;
+}
+
+.background-image h1 {
+    color: #878787;
+    font-weight: bold;
+}
+
+@media (max-width:565px){
+    .background-image {
+    /*background: url(../img/kids.png) no-repeat center center;*/
+    background-size: cover;
+    padding: 65px 0;
+}
+    .background-image h1 {
+    color: darkslategrey;
+    font-weight: bold;
+    font-size: 23px;    
+}
+}
+
+.testimonials-clean {
+    color: #313437;
+    background-color: #EEEEF0;
+}
+
+.testimonials-clean h2 {
+    font-weight: bold;
+    margin-bottom: 25px;
+    padding-top: 25px;
+    color: #212121;
+}
+
+.testimonials-clean .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.testimonials-clean .item {
+    margin-bottom: 32px;
+}
+
+.testimonials-clean .item .box {
+    padding: 30px;
+    background-color: #fff;
+    position: relative;
+}
+
+.testimonials-clean .item .author {
+    margin-top: 28px;
+    padding-left: 25px;
+}
+
+.testimonials-clean .item .name {
+    font-weight: bold;
+    margin-bottom: 2px;
+    color: #212121;
+    font-size: 1.5rem;
+}
+
+.author .review-stars {
+    height: 1rem;
+    width: auto;
+}
+
+
+.author .review-img {
+    max-width: 40px;
+    float: left;
+    margin-right: 12px;
+    margin-top: -5px;
+}
+
+.testimonials-clean p {
+    color: #7d8285;
+    font-size: 1.2rem;
+}
+
+.testimonials-clean .item .box::after {
+    content: '';
+    position: absolute;
+    left: 30px;
+    bottom: -24px;
+    width: 0;
+    height: 0;
+    border: 15px solid transparent;
+    border-top-width: 15px;
+    border-right-width: 15px;
+    border-bottom-width: 15px;
+    border-left-width: 15px;
+    border-top-color: transparent;
+    border-width: 12px 15px;
+    border-top-color: #fff;
+}
+
+.product-details {
+    color: #313437;
+    background-color: #2D5F73;
+}
+
+
+.product-details i {
+    color: #fff;
+}
+
+.fa.fa-circle-thin {
+    display: inline-block;
+    width: 100%;
+}
+
+.main-headings h1  {
+    color: #fff;
+    font-weight: bold;
+}
+
+.main-headings h2 {
+    color:#F6BC48;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+@media (max-width:767px) {
+    .main-headings h2 {
+        font-size: 1.5rem;
+    }
+}
+
+.main-steps h2 {
+    padding-top: 10px;
+}
+
+.main-benefits li {
+    color: #fff;
+    line-height: 2.2em;
+    font-size: 1.7rem;
+}
+
+@media (max-width:575px) {
+    .main-benefits li {
+    line-height: 2rem;
+    font-size: 1.275rem;
+}
+}
+
+h2.headliner {
+	font-size: 2em;
+	max-width: 100%;
+    color: #F6BC48;
+}
+
+p.instruction-steps {
+	font-size:1.2rem;
+	max-width: 100%;
+    color: #fff;
+}
+
+.col-sm-4 .fa-stack.fa-stack-align {
+    width: 100%;
+    font-size: 2.5em;
+    font-weight: bold; 
+    color: #F4F4F4;
+}
+
+.testimonials-seperator {
+    border-top: 2px solid #595959;
+}
+
+.resizing {
+    background-color: #EEEEF0;
+    border-radius: 5px;
+}
+
+.insurance-plans {
+    width:25%;
+    border: 3px solid #EEEEF0;
+    float: left;
+}
+
+.insurance-plans img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.invalid-feedback {
+    color: #FC101C;
+}
+
+.insurance-plans-text {
+    font-size: 1.2rem;
+}
+
+.phone-sizing {
+    font-size: 1.2rem;
+}
+
+
+@media (max-width:1199px){
+.plan-seperator {
+    border-top: 3px solid #707070;
+}
+    .plan-spacing {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+}
+
+
+.contactform h2 {
+    color: #212121;
+}
+
+.contactform label {
+    color: #575C61;
+    margin-bottom: 0.3rem;
+}
+
+.contactform input,.contactform  button, .contactform textarea {
+    margin-top: 0;
+}
+
